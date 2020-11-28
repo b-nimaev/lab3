@@ -24,7 +24,7 @@ module.exports = {
 		hot: true,
 	},
 	optimization: {
-		minimize: false
+		// minimize: false
 	},
 	plugins: [
 		new CleanWebpackPlugin(),
