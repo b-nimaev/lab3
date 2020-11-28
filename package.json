@@ -1,0 +1,60 @@
+{
+  "name": "gulp-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "server": "node server.js",
+    "start:dev": "node dev-server.js"
+  },
+  "dependencies": {
+    "@vkontakte/vk-bridge": "^2.3.0",
+    "lodash": "^4.17.20",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0",
+    "wepback": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.7",
+    "@babel/preset-env": "^7.12.7",
+    "babel-loader": "^8.2.1",
+    "bootstrap": "^4.5.3",
+    "browser-sync": "^2.26.13",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.0",
+    "dart-sass": "^1.25.0",
+    "ejs-templates-loader": "0.0.5",
+    "express": "^4.17.1",
+    "fiber": "^1.0.4",
+    "file-loader": "^6.2.0",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.5.0",
+    "jquery": "^3.5.1",
+    "pug": "^3.0.0",
+    "pug-loader": "^2.4.0",
+    "sass": "^1.28.0",
+    "sass-loader": "^10.0.4",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.0.11",
+    "typescript": "^4.1.2",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.5",
+    "vue-template-compiler": "^2.6.12",
+    "webpack-dev-middleware": "^4.0.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-hot-middleware": "^2.25.0",
+    "webpack-livereload-plugin": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b-nimaev/html_.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b-nimaev/html_/issues"
+  },
+  "homepage": "https://github.com/b-nimaev/html_#readme"
+}
